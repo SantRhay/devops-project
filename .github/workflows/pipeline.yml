@@ -1,3 +1,4 @@
+
 name: CI/CD Devops
 
 on:
@@ -20,7 +21,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t santrhay/devops-app:latest .
+        run: docker build -t santrhay/devops-app:latest ./docker
 
       - name: Push Docker image
         run: docker push santrhay/devops-app:latest
