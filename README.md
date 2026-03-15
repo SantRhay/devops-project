@@ -125,3 +125,11 @@ Projeto desenvolvido para prática e estudo de DevOps e Cloud Engineering.
 # ⭐ Contribuição
 
 Sinta-se à vontade para abrir issues ou enviar pull requests com melhoria
+
+## DevOps Architecture
+
+This project demonstrates a complete DevOps pipeline using Docker, Kubernetes and CI/CD.
+
+### Architecture Diagram
+
+![DevOps Architecture](docs/architecture.png)
