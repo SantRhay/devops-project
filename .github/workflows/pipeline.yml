@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t santrhay/devops-app:latest ./docker
+        run: docker build -t santrhay/devops-app:latest -f docker/Dockerfile .
 
       - name: Push Docker image
         run: docker push santrhay/devops-app:latest
