@@ -1,8 +1,9 @@
 ## DevOps Project - Docker + Kubernetes
+![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
 
-![CI/CD Pipeline](https://github.com/santrhay/devops-project/actions/workflows/pipeline.yml/badge.svg)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blue?logo=kubernetes)
 
-CI/CD Pipeline
+![CI/CD](https://img.shields.io/badge/CI/CD-GitHub%20Actions-green?logo=githubactions)
 
 ---
 
