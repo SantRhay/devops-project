@@ -10,7 +10,7 @@ jobs:
 
   steps:
     - name: Checkout code
-      uses: actions/login-actions@v3
+      uses: actions/checkout@v3
 
    - name: Login DockerHub
      uses: docker/login-action@v2
